@@ -1,0 +1,86 @@
+body {
+    background-image: url('/project/public/img/Captura.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.logo{
+width: 150px;
+height: 150px;
+position: absolute;
+top:  12%;
+left: 44%;
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin:auto;
+    margin-top: 150px;
+    padding: 50px 20px;
+    color: #ffff;
+    border: 2px solid rgb(146, 146, 156);
+    background-color: rgb(34, 34, 126);
+    border-radius: 20px;
+}
+.header-form{
+    text-align: center;
+}
+
+.input{
+    background-color: transparent;
+    border: 1px solid rgba(145, 143, 146, 0.911);
+    padding: 6px;
+    color: #ffff;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.input::placeholder{
+    color: #f5f2f2e8;
+}
+
+
+
+.session-btn{
+    text-align: center;
+}
+
+.btn-form{
+    margin-top: 30px;
+    width: 60%;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+
+}
+.btn-form:hover{
+    cursor: pointer;
+    background-color: #f5f0f0c4;
+}
+.recuperar{
+    margin-top: 20px;
+    display: block;
+    color: #f5f2f2e8;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: .8em;
+}
+.recuperar:hover{
+    color: #f5f0f0c4;
+}
+
+.error{
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
